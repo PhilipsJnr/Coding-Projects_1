@@ -5,6 +5,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Website for Testing</title>
         <!-- <link rel="stylesheet" href="/img/hero-x-image.png" /> how does this favicon work?-->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+            integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,24 +23,36 @@
         <link rel="stylesheet" href="style-lazy.css" />
     </head>
     <body>
-        <!-- <h2 class="title">Idle Website</h2>
+        <!-- Beginning of container for to-do website -->
 
-        <div class="content-field">
-            <input
-                type="text"
-                class="input-field"
-                placeholder="Input your Task"
-            />
+        <div class="container">
+            <div class="todo-app">
+                <h1>To-Do App</h1>
 
-            <button class="task-click" id="InputBtn">Add your Task</button>
-            <ul id="TaskList"></ul>
-        </div> -->
+                <!-- Beginning of input area for adding tasks -->
 
-<div class="container">
-    <div class="todo-app">
-<h1>To-Do App</h1>
-</div>
-</div>
+                <form class="input-area">
+                    <input
+                        type="text"
+                        id="task-input"
+                        placeholder="Add a new task...."
+                    />
+                    <button type="submit" id="add-task-btn">
+                        <i class="fa-solid fa-plus"></i>
+                    </button>
+                </form>
+
+                <!-- End of input area for adding tasks -->
+
+                <!-- Beginning of list of tasks -->
+                <ul id="task-list"></ul>
+                <img class="empty-image" src="/img/empty-image-1.png" alt="" />
+                <!-- End of list of tasks -->
+            </div>
+        </div>
+
+        <!-- Beginning of container for to-do website -->
+
         <script src="script-lazy.js"></script>
     </body>
 </html>
