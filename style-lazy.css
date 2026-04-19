@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:
+        'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*body {
+    background-color: #242242;
+}
+
+ h2 {
+    color: #fff;
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2::before { */
+/*using before inserts the content before the h2*/
+/* content: '';
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    width: 75px;
+    height: 2.5px;
+    top: 35px;
+    left: 47%;
+    border-radius: 2px;
+}
+
+.content-field {
+    width: 500px;
+    height: 200px;
+    background-color: orange;
+    border: 5px #fff;
+    position: absolute;
+    top: 35%;
+    left: 32%;
+    border-radius: 5px;
+    box-shadow:
+        25px 25px 75px rgba(0, 0, 0, 0.25),
+        10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.content-field .input-field {
+    margin: 10px 10px 0 20px;
+    height: 30px;
+    width: 300px;
+    padding: 2px 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+}
+
+.content-field .task-click {
+    padding: 8px 7px;
+    background: #242242;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    border-radius: 7px;
+}
+
+.content-field #TaskList {
+    list-style: none;
+    padding: 10px 0 0 20px;
+}
+
+.content-field #TaskList li {
+    width: 330px;
+    height: 30px;
+    align-items: center;
+    padding-top: 6px;
+    padding-left: 5px;
+    background-color: #242242;
+    border-radius: 12px;
+} */
