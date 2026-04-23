@@ -37,7 +37,7 @@
                         id="task-input"
                         placeholder="Add a new task...."
                     />
-                    <button type="submit" id="add-task-btn">
+                    <button type="submit" id="add-task-btn" onclick="addTask()">
                         <i class="fa-solid fa-plus"></i>
                     </button>
                 </form>
@@ -46,10 +46,7 @@
 
                 <!-- Beginning of list of tasks -->
                 <div class="todo-container">
-                    <ul id="task-list">
-                        <li>Save Gotham</li>
-                        <li>Fight crime</li>
-                    </ul>
+                    <ul id="task-list"></ul>
                     <img
                         class="empty-image"
                         src="/img/empty-image-12.png"
