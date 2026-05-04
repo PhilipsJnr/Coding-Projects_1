@@ -122,3 +122,19 @@ body {
     width: 100%;
     text-align: center;
 }
+
+.btns button {
+    width: 40px;
+    height: 35px;
+    border: 1px solid #888;
+    border-radius: 8px;
+    font-size: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btns button:hover {
+    background: #ababab;
+    color: #fff;
+}
