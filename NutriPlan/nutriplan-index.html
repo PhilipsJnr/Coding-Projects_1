@@ -9,64 +9,193 @@
         <link rel="stylesheet" href="fontawesome/css/all.min.css" />
     </head>
     <body>
-        <nav class="header">
-            <div class="title">
-                <img src="images/icon.svg" alt="nutrition-icon" />
-                <p>NutriPlan</p>
-            </div>
-            <div class="links">
-                <ul>
-                    <li><a class="nav-bar-menu" href="#">Home</a></li>
-                    <li class="button">
-                        <button class="list-item">
-                            Recipes<i class="fa-solid fa-angle-up"></i>
-                        </button>
-                        <div class="content">
-                            <a class="drop-down" href="#"
-                                >Recipe Recommendations</a
-                            >
-                            <a class="drop-down" href="#">Recipe Search</a>
-                            <a class="drop-down" href="#">Recipe Collection</a>
+        <div class="top-main">
+            <nav class="header" id="myTopnav">
+                <div class="title">
+                    <img src="images/icon.svg" alt="nutrition-icon" />
+                    <p>NutriPlan</p>
+                </div>
+                <div class="links">
+                    <ul>
+                        <li><a class="nav-bar-menu" href="#">Home</a></li>
+                        <li class="button nav1">
+                            <button class="list-item button1">
+                                Recipes<i class="fa-solid fa-angle-up"></i>
+                            </button>
+                            <div class="content">
+                                <a class="drop-down" href="#"
+                                    >Recipe Recommendations</a
+                                >
+                                <a class="drop-down" href="#">Recipe Search</a>
+                                <a class="drop-down" href="#"
+                                    >Recipe Collection</a
+                                >
+                            </div>
+                        </li>
+                        <li class="button nav2">
+                            <button class="list-item button2">
+                                Meal Planning<i
+                                    class="fa-solid fa-angle-up"
+                                ></i>
+                            </button>
+                            <div class="content">
+                                <a class="drop-down" href="#">Diet Plans</a>
+                                <a class="drop-down" href="#"
+                                    >Smoothie Meals Plans</a
+                                >
+                                <a class="drop-down" href="#">Shopping List</a>
+                                <a class="drop-down" href="#">Meal Plan</a>
+                            </div>
+                        </li>
+                        <li>
+                            <a class="nav-bar-menu" href="#">Food Analysis</a>
+                        </li>
+                        <li><a class="nav-bar-menu" href="#">Emily AI</a></li>
+                        <li class="button nav3">
+                            <button class="list-item button3">
+                                Resources<i class="fa-solid fa-angle-up"></i>
+                            </button>
+                            <div class="content">
+                                <a class="drop-down" href="#"
+                                    >Nutrition Guide</a
+                                >
+                                <a class="drop-down" href="#"
+                                    >Metabolic Typing Quiz</a
+                                >
+                                <a class="drop-down" href="#"
+                                    >AR Measurement Guide</a
+                                >
+                                <a class="drop-down" href="#">FAQ</a>
+                            </div>
+                        </li>
+                        <li><a class="nav-bar-menu" href="#">Profile</a></li>
+                    </ul>
+                </div>
+                <div class="buttons">
+                    <button class="login-button"><a href="#">Login</a></button>
+                    <button class="start-button">
+                        <a href="#">Get Started</a>
+                    </button>
+                </div>
+                <!-- beginning of icon for @media -->
+                <!-- <div class="nav-icon">
+                    <a
+                        href="javascript:void(0);"
+                        class="icon"
+                        onclick="myFunction()"
+                        >&#9776;</a
+                    >
+                </div> -->
+                <!-- end of icon for @media -->
+            </nav>
+
+            <section>
+                <div class="main-section-content">
+                    <div class="title-name">
+                        <p>🌱 Your path to better nutrition starts here</p>
+                    </div>
+                    <div class="content">
+                        <h2>
+                            AI-Powered<br />Nutrition App:<br />
+                            <div class="content text-section">
+                                Personalized Meal<br />Planning
+                            </div>
+                        </h2>
+                        <p>
+                            Transform your health with personalized meal <br />
+                            recommendations, custom diet plans, and AI nutrition
+                            coaching. <br />Discover healthy recipes perfectly
+                            matched to your dietary <br />preferences, weight
+                            loss goals, and nutritional needs.
+                        </p>
+
+                        <div class="content-buttons">
+                            <button class="start">
+                                <a href="#">Get Started</a
+                                ><i class="fa-solid fa-angle-right"></i>
+                            </button>
+                            <button class="metabolic-type">
+                                <a href="#">My Metabolic Type</a>
+                            </button>
                         </div>
-                    </li>
-                    <li class="button">
-                        <button class="list-item">
-                            Meal Planning<i class="fa-solid fa-angle-up"></i>
-                        </button>
-                        <div class="content">
-                            <a class="drop-down" href="#">Diet Plans</a>
-                            <a class="drop-down" href="#"
-                                >Smoothie Meals Plans</a
+                    </div>
+                </div>
+                <div class="tab">
+                    <div class="svg-image-1">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-utensils w-10 h-10 text-primary"
+                        >
+                            <path
+                                d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"
+                            ></path>
+                            <path d="M7 2v20"></path>
+                            <path
+                                d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"
+                            ></path>
+                        </svg>
+                    </div>
+
+                    <div class="tab-content">
+                        <div class="tab-content-1">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="lucide lucide-heart h-6 w-6 text-primary"
                             >
-                            <a class="drop-down" href="#">Shopping List</a>
-                            <a class="drop-down" href="#">Meal Plan</a>
+                                <path
+                                    d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"
+                                ></path>
+                            </svg>
+
+                            <div class="typings-content">
+                                <div class="first-part-content">
+                                    AI Nutrition Coaching
+                                </div>
+                                <div class="second-part-content">
+                                    Personalized Wellness
+                                </div>
+                            </div>
                         </div>
-                    </li>
-                    <li><a class="nav-bar-menu" href="#">Food Analysis</a></li>
-                    <li><a class="nav-bar-menu" href="#">Emily AI</a></li>
-                    <li class="button">
-                        <button class="list-item">
-                            Resources<i class="fa-solid fa-angle-up"></i>
-                        </button>
-                        <div class="content">
-                            <a class="drop-down" href="#">Nutrition Guide</a>
-                            <a class="drop-down" href="#"
-                                >Metabolic Typing Quiz</a
-                            >
-                            <a class="drop-down" href="#"
-                                >AR Measurement Guide</a
-                            >
-                            <a class="drop-down" href="#">FAQ</a>
+
+                        <div class="detailed-content">
+                            <div class="content-1">
+                                <p class="number">25g</p>
+                                <p>Protein</p>
+                            </div>
+                            <div class="content-2">
+                                <p class="number">40g</p>
+                                <p>Carbs</p>
+                            </div>
+                            <div class="content-3">
+                                <p class="number">15g</p>
+                                <p>Fats</p>
+                            </div>
                         </div>
-                    </li>
-                    <li><a class="nav-bar-menu" href="#">Profile</a></li>
-                </ul>
-            </div>
-            <div class="buttons">
-                <button>Login</button>
-                <button>Get Started</button>
-            </div>
-        </nav>
+
+                        <div class="content-information">
+                            <p>
+                                Custom meal plans and healthy recipes <br />
+                                tailored to your dietary goals, weight<br />
+                                management needs, and nutritional
+                                <br />preferences
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
         <script src="nutriplan-script.js"></script>
     </body>
 </html>
