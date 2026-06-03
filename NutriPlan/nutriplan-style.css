@@ -67,9 +67,14 @@ body {
     margin-right: 15px;
 }
 
-.header .links ul li:nth-child(1) a {
+.header .links ul li:nth-child(1) a.nav-bar-menu-1 {
     color: #70c2b8;
     background-color: #e7f0ef;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 18px;
+    font-weight: 400;
+    margin-top: 10px;
 }
 
 .header .links ul li a.nav-bar-menu {
@@ -263,6 +268,7 @@ section {
     cursor: pointer;
     font-weight: 500;
     border-radius: 13px;
+    transition: transform 0.15s ease;
 }
 
 .content .content-buttons .start a {
@@ -275,19 +281,23 @@ section {
 }
 
 .content .content-buttons .start:hover {
-    transform: scale(1.038);
-    transition: all 0.15s;
+    transform: scale(1.04);
+}
+
+.content .content-buttons .start:hover i {
+    padding-left: 5px;
 }
 
 .content .content-buttons .metabolic-type {
     padding: 12px 38px;
-    outline: 2px #1ea954;
+    outline: 1px solid #27c764;
     background: #1c2e2a;
     border-radius: 30px;
     color: #1ea954;
     font-size: 15px;
     cursor: pointer;
     font-weight: 500;
+    border: none;
 }
 
 .content .content-buttons .metabolic-type a {
@@ -339,8 +349,14 @@ section .tab .tab-content .tab-content-1 {
     width: 360px;
     height: 100px;
     margin: auto;
-    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.2);
     border-radius: 20px;
+    outline: 1px solid #dcfce7;
+}
+
+section .tab .tab-content .tab-content-1:hover {
+    box-shadow: 0px 8px 16px 1px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
 }
 
 section .tab-content .tab-content-1 svg {
@@ -380,7 +396,7 @@ section .tab-content .detailed-content .content-1 {
     text-align: center;
     background-color: #def4ee;
     border-radius: 18px;
-    box-shadow: 0px 7px 20px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 section .tab-content .detailed-content .content-2 {
@@ -392,7 +408,7 @@ section .tab-content .detailed-content .content-2 {
     text-align: center;
     background-color: #ecf0e2;
     border-radius: 18px;
-    box-shadow: 0px 7px 20px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 section .tab-content .detailed-content .content-3 {
@@ -404,7 +420,7 @@ section .tab-content .detailed-content .content-3 {
     text-align: center;
     background-color: #def4ee;
     border-radius: 18px;
-    box-shadow: 0px 7px 20px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
 section .tab-content .content-information {
@@ -415,5 +431,169 @@ section .tab-content .content-information {
     padding: 5px 5px;
     border: 5px #0c9c5c;
     border-radius: 10px;
-    box-shadow: 0px 7px 20px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 3px 8px 0px rgba(0, 0, 0, 0.2);
+    outline: 1px solid #dcfce7;
 }
+
+section .tab-content .content-information:hover {
+    box-shadow: 0px 8px 16px 1px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+
+/*Beginning of second section css properties*/
+
+.second-part {
+    width: max-content;
+    margin: auto;
+}
+
+.second-part-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: linear-gradient(90deg, #ffffff, #effef6);
+    margin: 0;
+}
+
+.second-part .heading {
+    color: #0f9d56;
+    font-size: 1.5em;
+    /* margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+    font-weight: bold;
+    unicode-bidi: isolate;
+    text-align: center;
+    word-spacing: -2px;
+    margin-bottom: 1.5rem;
+}
+
+.second-part .heading h1 {
+    line-height: 46px;
+}
+
+.second-part .extra-info p {
+    max-width: 768px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.second-part .section-notes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+}
+
+.second-part .section-notes .first-section {
+    border: 2px solid #e0fbe9;
+    display: block;
+    text-align: center;
+    height: 420px;
+    width: 380px;
+    padding: 25px 5px 0 5px;
+    border-radius: 15px;
+    transition:
+        transform 0.2s,
+        box-shadow 0.2s ease;
+    background-color: #fff;
+}
+
+.second-part .section-notes .first-section svg {
+    width: 3.1rem;
+    height: 3.1rem;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 3px 1px rgba(25, 25, 25, 0.15);
+    fill: #fff;
+    color: #15803d;
+}
+
+.second-part .section-notes .first-section:hover {
+    transform: translateY(-12px) translateZ(10px) scale(1);
+    border: 2px solid #ccf7dc;
+    box-shadow: 0 10px 20px rgba(25, 25, 25, 0.15);
+}
+
+.second-part .section-notes .second-section {
+    border: 2px solid #e0fbe9;
+    display: block;
+    text-align: center;
+    height: 420px;
+    width: 380px;
+    padding: 25px 5px 0 5px;
+    border-radius: 15px;
+    transition:
+        transform 0.2s,
+        box-shadow 0.2s ease;
+    background-color: #fff;
+}
+
+.second-part .section-notes .second-section svg {
+    width: 51px;
+    height: 51px;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 3px 1px rgba(25, 25, 25, 0.15);
+    fill: #fff;
+    color: #c2410c;
+}
+
+.second-part .section-notes .second-section:hover {
+    transform: translateY(-12px) translateZ(10px) scale(1);
+    border: 2px solid #ccf7dc;
+    box-shadow: 0 10px 20px rgba(25, 25, 25, 0.15);
+}
+
+.second-part .section-notes .third-section {
+    border: 2px solid #e0fbe9;
+    display: block;
+    text-align: center;
+    height: 420px;
+    width: 380px;
+    padding: 25px 5px 0 5px;
+    border-radius: 15px;
+    transition:
+        transform 0.2s,
+        box-shadow 0.2s ease;
+    background-color: #fff;
+}
+
+.second-part .section-notes .third-section svg {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 3px 3px 1px rgba(25, 25, 25, 0.15);
+    fill: #fff;
+    color: #15803d;
+}
+
+.second-part .section-notes .third-section:hover {
+    transform: translateY(-12px) translateZ(10px) scale(1);
+    border: 2px solid #ccf7dc;
+    box-shadow: 0 10px 20px rgba(25, 25, 25, 0.15);
+}
+
+.second-part .end-button {
+    margin-top: 50px;
+    align-self: center;
+}
+
+.second-part .end-button button {
+    width: 310px;
+    height: 70px;
+    border-radius: 40px;
+    border: 0;
+    outline: 0;
+    background: linear-gradient(to bottom, #7adeae 0%, #38b66a 100%);
+}
+
+.second-part .end-button button:hover {
+    transform: scale(1.06);
+    transition: all 0.25s;
+    background: linear-gradient(135deg, #0be394, #09ad71);
+}
+
+/*End of second section css properties*/
