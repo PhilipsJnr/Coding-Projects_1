@@ -110,6 +110,10 @@ body {
 }
 
 .header .links ul li.button .content {
+  overflow: hidden;
+}
+
+.header .links ul li.button .content {
   display: none;
   position: absolute;
   width: 240px;
@@ -123,7 +127,7 @@ body {
 
 .header .links ul li.button .content .drop-down {
   display: block;
-  padding: 6px 50px 6px 6px;
+  padding: 6px 50px 6px 10px;
   color: black;
   text-decoration: none;
 }
