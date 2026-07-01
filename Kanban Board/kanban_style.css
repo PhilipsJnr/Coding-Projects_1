@@ -73,7 +73,7 @@ h1 {
 
 /* Would be defined later */
 .list.over {
-  background-color: #d1d3d8;
+  background: #d1d3d8;
 }
 
 @media (max-width: 768px) {
